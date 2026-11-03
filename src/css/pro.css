@@ -1,0 +1,31 @@
+.editor-box {
+    position: relative;
+    display: inline-block;
+}
+
+.txt{
+    background-color: rgb(234, 234, 234);
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+#ttt{
+    position: absolute;
+    top: -31px;
+    right: 0;
+    border: 2px solid #333;
+    border-radius: 120px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.buttons {
+    margin-top: 0px;
+    text-align: left;
+}
+
+.buttons button {
+    margin-right: 10px;
+}
